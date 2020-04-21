@@ -1,0 +1,38 @@
+{
+	"name": "chatterbox",
+	"version": "0.1.0",
+	"description": "Create chat threads using WordPress Blocks inside app and device wrappers.",
+	"author": "Dave Ryan",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^8.0.1",
+		"css-loader": "^3.5.2",
+		"mini-css-extract-plugin": "^0.9.0",
+		"node-sass": "^4.13.1",
+		"sass-loader": "^8.0.2",
+		"webpack-fix-style-only-entries": "^0.4.0",
+		"webpack-merge": "^4.2.2"
+	},
+	"dependencies": {
+		"@salesforce-ux/design-system": "^2.11.8",
+		"@wordpress/block-editor": "^3.9.1",
+		"@wordpress/blocks": "^6.14.1",
+		"@wordpress/components": "^9.4.1",
+		"@wordpress/editor": "^9.14.1",
+		"@wordpress/element": "^2.13.1",
+		"@wordpress/i18n": "^3.11.0",
+		"classnames": "^2.2.6",
+		"devices.css": "picturepan2/devices.css",
+		"lodash": "^4.17.15",
+		"lodash-es": "^4.17.15"
+	}
+}
