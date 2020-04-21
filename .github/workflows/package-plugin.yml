@@ -48,7 +48,9 @@ jobs:
         run: npm run build
 
       - name: Remove development files
-        run: .github/scripts/clean-release.sh
+        run: |
+          chmod +x ./github/scripts/clean-release.sh
+          ./github/scripts/clean-release.sh
 
       - name: Create Zip
         run: zip -r chatterbox.zip .
