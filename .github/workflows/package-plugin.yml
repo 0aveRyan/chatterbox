@@ -29,18 +29,6 @@ jobs:
       - name: NPM version
         run: npm --version
 
-      - name: Get npm cache directory
-        id: npm-cache
-        run: echo "::set-output name=dir::$(npm config get cache)"
-
-      - name: Cache node modules
-        uses: actions/cache@v1
-        with:
-          path: ${{ steps.npm-cache.outputs.dir }}
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       - name: npm install
         run: npm install
 
@@ -49,8 +37,8 @@ jobs:
 
       - name: Remove development files
         run: |
-          chmod +x ./github/scripts/clean-release.sh
-          ./github/scripts/clean-release.sh
+          chmod +x .github/scripts/clean-release.sh
+          .github/scripts/clean-release.sh
 
       - name: Create Zip
         run: zip -r chatterbox.zip .
