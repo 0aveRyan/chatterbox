@@ -15,9 +15,13 @@
     }
     &.is-style-app {
         border: 1px solid #ddd;
+        .slds-chat {
+            background: #f9f9f9;
+            margin-bottom: 0 !important;
+        }
         ul {
             padding: 1rem 1.5rem !important;
-            margin-bottom: 1rem !important;
+            margin: 0 !important;
         }
     }
     .device-imac-pro {
@@ -45,7 +49,7 @@
         }
     }
     .device-content {
-        background: #fff;
+        background: #f9f9f9;
         padding: 1rem;
         overflow-y: scroll;
         overflow-x: hidden;
@@ -60,5 +64,10 @@
 
 .wp-block-chatterbox-message .slds-chat-message__text {
     font-size: 16px;
+    max-width: fit-content;
+}
+
+.is-style-outbound .slds-chat-message__meta {
+    margin-left: auto !important;
     max-width: fit-content;
 }
