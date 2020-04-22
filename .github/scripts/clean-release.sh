@@ -2,6 +2,7 @@
 
 rm -rf .git
 rm -rf .github
+rm -rf .wporg
 rm -rf node_modules
 rm -rf src
 
