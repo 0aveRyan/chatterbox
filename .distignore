@@ -5,8 +5,9 @@
 /src
 
 .distignore
-.gitignore
 .editorconfig
+.gitignore
+.gitattributes
 
 package-lock.json
 package.json

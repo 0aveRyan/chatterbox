@@ -15,8 +15,9 @@ const ALLOWED_BLOCKS = [ MESSAGE_BLOCK ];
 const CHAT_TEMPLATE = [ [ MESSAGE_BLOCK ] ];
 
 export default ( { className } ) => {
+	
 	const chatType = resolveChatType( className );
-	console.log( chatType );
+
 	const chat = (
 		<div role="log" className={ classNames( 'slds-chat' ) }>
 			<ul className={ classNames( 'slds-chat-list' ) }>

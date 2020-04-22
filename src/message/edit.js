@@ -1,7 +1,5 @@
 import { __ } from '@wordpress/i18n';
 
-import { createBlock } from '@wordpress/blocks';
-
 import { RichText } from '@wordpress/block-editor';
 
 import { InspectorControls } from '@wordpress/editor';
@@ -14,9 +12,8 @@ import classNames from 'classnames';
 
 import { resolveMessageType } from './utils';
 
-import { NS } from './../constants';
-
 export default ( { className, attributes, setAttributes } ) => {
+
 	const { content, timestamp } = attributes;
 
 	const type = resolveMessageType( className );
@@ -54,7 +51,7 @@ export default ( { className, attributes, setAttributes } ) => {
 									tagName="span"
 									value={ content }
 									placeholder={
-										'Start typing the message content...'
+										__( 'Start typing the message content...' )
 									}
 									onChange={ ( content ) =>
 										setAttributes( { content } )

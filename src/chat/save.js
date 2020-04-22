@@ -5,6 +5,7 @@ import classNames from 'classnames';
 import { resolveChatType } from './utils';
 
 export default ( { attributes } ) => {
+	
 	const { className } = attributes;
 
 	const chatType = resolveChatType( className );

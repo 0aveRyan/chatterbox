@@ -10,6 +10,7 @@ import edit from './edit';
 import { NS } from '../constants';
 
 registerBlockType( `${ NS }/message`, {
+
 	title: __( 'Message' ),
 
 	description: __( 'A chat message.' ),
@@ -45,4 +46,5 @@ registerBlockType( `${ NS }/message`, {
 	edit,
 
 	save,
+	
 } );

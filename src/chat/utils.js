@@ -5,8 +5,9 @@ export const resolveChatType = ( className = '' ) => {
 };
 
 export const mapTypeFromClasses = ( className ) => {
+
 	const blockClasses = className.split( ' ' );
-	console.log( blockClasses );
+
 	const styleClasses = [
 		'is-style-app',
 		'is-style-imac',
@@ -14,6 +15,7 @@ export const mapTypeFromClasses = ( className ) => {
 		'is-style-laptop',
 		'is-style-pixel',
 	];
+	
 	const mapPublicClass = {
 		'is-style-app': 'app',
 		'is-style-imac': 'imac-pro',
