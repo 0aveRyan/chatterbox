@@ -15,7 +15,6 @@ const ALLOWED_BLOCKS = [ MESSAGE_BLOCK ];
 const CHAT_TEMPLATE = [ [ MESSAGE_BLOCK ] ];
 
 export default ( { className } ) => {
-	
 	const chatType = resolveChatType( className );
 
 	const chat = (
@@ -40,11 +39,14 @@ export default ( { className } ) => {
 			) }
 			{ chatType && 'app' !== chatType && (
 				<Fragment>
-					<div className={ classNames( 'device', 'device-' + chatType ) }>
+					<div
+						className={ classNames(
+							'device',
+							'device-' + chatType
+						) }
+					>
 						<div className="device-frame">
-							<div className="device-content">
-								{ chat }
-							</div>
+							<div className="device-content">{ chat }</div>
 						</div>
 						<div className="device-stripe"></div>
 						<div className="device-header"></div>

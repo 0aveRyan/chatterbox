@@ -5,7 +5,6 @@ import classNames from 'classnames';
 import { resolveChatType } from './utils';
 
 export default ( { attributes } ) => {
-	
 	const { className } = attributes;
 
 	const chatType = resolveChatType( className );
@@ -29,11 +28,14 @@ export default ( { attributes } ) => {
 			) }
 			{ chatType && 'app' !== chatType && (
 				<Fragment>
-					<div className={ classNames( 'device', 'device-' + chatType ) }>
+					<div
+						className={ classNames(
+							'device',
+							'device-' + chatType
+						) }
+					>
 						<div className="device-frame">
-							<div className="device-content">
-								{ chat }
-							</div>
+							<div className="device-content">{ chat }</div>
 						</div>
 						<div className="device-stripe"></div>
 						<div className="device-header"></div>

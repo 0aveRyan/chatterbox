@@ -7,12 +7,7 @@ import classNames from 'classnames';
 import { resolveMessageType } from './utils';
 
 export default ( { attributes } ) => {
-
-	const { 
-		className, 
-		content, 
-		timestamp,
-	} = attributes;
+	const { className, content, timestamp } = attributes;
 
 	const type = resolveMessageType( className );
 

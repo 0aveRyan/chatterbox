@@ -10,7 +10,6 @@ import edit from './edit';
 import { NS } from '../constants';
 
 registerBlockType( `${ NS }/chat`, {
-	
 	title: __( 'Chatterbox' ),
 
 	description: __( 'A group of chat messages.' ),

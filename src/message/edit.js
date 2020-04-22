@@ -13,7 +13,6 @@ import classNames from 'classnames';
 import { resolveMessageType } from './utils';
 
 export default ( { className, attributes, setAttributes } ) => {
-
 	const { content, timestamp } = attributes;
 
 	const type = resolveMessageType( className );
@@ -50,9 +49,9 @@ export default ( { className, attributes, setAttributes } ) => {
 								<RichText
 									tagName="span"
 									value={ content }
-									placeholder={
-										__( 'Start typing the message content...' )
-									}
+									placeholder={ __(
+										'Start typing the message content...'
+									) }
 									onChange={ ( content ) =>
 										setAttributes( { content } )
 									}
