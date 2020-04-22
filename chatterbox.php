@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Chatterbox
  * Description:     Create chat threads using WordPress Blocks inside app and device wrappers. 
- * Version:         0.1.0
+ * Version:         0.1.1
  * Author:          Dave Ryan
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
