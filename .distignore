@@ -1,0 +1,13 @@
+/.wporg
+/.git
+/.github
+/node_modules
+/src
+
+.distignore
+.gitignore
+.editorconfig
+
+package-lock.json
+package.json
+webpack.config.js
