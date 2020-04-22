@@ -2,7 +2,10 @@
 
 Create chat threads using WordPress Blocks inside app and mobile wrappers.
 
-Great for publishing SMS records in news stories, demos of SMS bots, demos of slash commands and just for fun. 
+Chatterbox can be used for:
+* Demos of chat bots
+* Publishing chat records in news stories
+* A fun way to add striking visual display to conversations
 
 ## Installation
 
@@ -34,4 +37,7 @@ Download the latest release from WordPress.org or GitHub.
 
 ## LICENSE
 
-Available under the GNU GPL v2.
+Chatterbox is available under the General Public License v2+.
+
+For more, see the LICENSE file.
+For more on included third-party code, see VENDORS.

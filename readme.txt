@@ -1,6 +1,8 @@
 === Chatterbox ===
+Author URI: https://www.daveryan.io
+Plugin URI: https://www.github.com/0aveRyan/chatterbox
 Contributors:      dryanpress
-Tags:              block
+Tags:              block, chat, message, mobile, gutenberg
 Requires at least: 5.3.2
 Tested up to:      5.3.2
 Stable tag:        0.1.0
@@ -8,50 +10,50 @@ Requires PHP:      7.0.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block written with ESNext standard and JSX support – build step required.
+Create chat threads using WordPress Blocks inside app and mobile wrappers.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+Create chat threads using WordPress Blocks inside app and mobile wrappers.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Chatterbox can be used for:
+* Demos of chat bots
+* Publishing chat records in news stories
+* A fun way to add striking visual display to conversations
+
+At launch, Chatterbox allows display of chats with messages and timestamps in inbound and outbound styles.
+
+Chat threads can be displayed without a background, in an app container, in mobile phones and other computer screens.
+
+Learn more about what's [on the roadmap](https://github.com/0aveRyan/chatterbox#roadmap).
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/chatterbox` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/chatterbox` directory or search for "Chatterbox" in the WordPress Admin's Plugin screen.
 1. Activate the plugin through the 'Plugins' screen in WordPress
-
+1. Go to the Block Editor and type `/chatterbox` to get started.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Is Chatterbox a live chat service? =
 
-An answer to that question.
+No, Chatterbox is a display block -- there are no interactive chat features.
 
-= What about foo bar? =
+= Can I customize the fonts and colors? =
 
-Answer to foo bar dilemma.
+At launch, these features aren't in Chatterbox -- hopefully in the next few months!
+
+= Wouldn't it be great it chats were animated? Had names? Avatars? Etc? =
+
+Yes. Yes it would. Those kind of features are on the [on the roadmap](https://github.com/0aveRyan/chatterbox#roadmap)!
+
+Some of these features will rely on new features in the Gutenberg project. Once those are out in the wild, Chatterbox will be getting some love.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. 
 
 == Changelog ==
 
 = 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+* Initial Public Release
