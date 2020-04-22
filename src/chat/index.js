@@ -14,6 +14,8 @@ registerBlockType( `${ NS }/chat`, {
 
 	description: __( 'A group of chat messages.' ),
 
+	keywords: [ __( 'chat' ), __( 'DM' ), __( 'SMS' ) ],
+
 	styles: [
 		{ name: 'borderless', label: __( 'Borderless' ), isDefault: true },
 		{ name: 'app', label: __( 'App' ) },
