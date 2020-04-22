@@ -1,5 +1,7 @@
 # Chatterbox
 
+![example of chatterbox inside a smartphone wrapper](https://raw.githubusercontent.com/0aveRyan/chatterbox/master/.wporg/screenshot-4.gif)
+
 Create chat threads using WordPress Blocks inside app and mobile wrappers.
 
 Chatterbox can be used for:
