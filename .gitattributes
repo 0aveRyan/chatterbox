@@ -1,5 +1,6 @@
 # Directories
 /.github export-ignore
+/.wporg export-ignore
 
 # Files
 /.gitattributes export-ignore
