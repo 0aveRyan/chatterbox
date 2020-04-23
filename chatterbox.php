@@ -20,7 +20,7 @@ function init() {
 
 	if ( ! file_exists( $script_asset_path ) ) {
 		throw new \Error(
-			'You need to run `npm start` or `npm run build` for the "create-block/chatterbox" block first.'
+			'You need to run `npm start` or `npm run build` for the chatterbox blocks first.'
 		);
 	}
 
